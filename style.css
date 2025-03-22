@@ -6,8 +6,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    cursor: url('valentines-day-gift-box-balloons-custom-cursor.png'), auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   
   header {
