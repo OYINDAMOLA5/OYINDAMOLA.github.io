@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    cursor: url(valentines-day-gift-box-balloons-custom-cursor.png), auto;
+    cursor: url('valentines-day-gift-box-balloons-custom-cursor.png'), auto;
   }
   
   header {
@@ -29,7 +29,7 @@ body {
     color: #ff6f61;
     font-weight: bold;
   }
-  
+
   #message {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -113,3 +113,23 @@ body {
       transform: translateY(-100vh) rotate(360deg);
     }
   }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+#message {
+    font-size: 1rem;
+    padding: 15px;
+    margin: 10px;
+}
+
+    #surpriseButton {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    footer {
+        font-size: 0.9rem;
+    }
+}
